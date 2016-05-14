@@ -15,6 +15,17 @@ class PokeCell: UICollectionViewCell {
     
     var pokeman: Pokeman!
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        layer.cornerRadius = 5.0
+    }
+    
+    
     func configureCell(pokeman: Pokeman) {
         
         self.pokeman = pokeman
