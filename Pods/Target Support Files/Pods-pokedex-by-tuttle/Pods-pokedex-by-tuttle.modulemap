@@ -1,0 +1,6 @@
+framework module Pods_pokedex_by_tuttle {
+  umbrella header "Pods-pokedex-by-tuttle-umbrella.h"
+
+  export *
+  module * { export * }
+}
