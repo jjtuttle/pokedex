@@ -187,6 +187,7 @@
 				TargetAttributes = {
 					1AC9CEEB1CE6411D0034E423 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4E5XUM99EM;
 					};
 				};
 			};
@@ -399,10 +400,13 @@
 			baseConfigurationReference = C82F5DDC1D296CE11E42FC85 /* Pods-pokedex-by-tuttle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "pokedex-by-tuttle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaymz69.pokedex-by-tuttle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaymz69.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb066b31-9c4c-4056-97b1-09ae87f0b9bd";
 			};
 			name = Debug;
 		};
@@ -411,10 +415,13 @@
 			baseConfigurationReference = DF451468D4E46BC36F8D5431 /* Pods-pokedex-by-tuttle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "pokedex-by-tuttle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaymz69.pokedex-by-tuttle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaymz69.pokedex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bb066b31-9c4c-4056-97b1-09ae87f0b9bd";
 			};
 			name = Release;
 		};
